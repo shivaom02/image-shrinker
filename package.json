@@ -1,0 +1,22 @@
+{
+  "name": "image-shrinker",
+  "version": "1.0.0",
+  "description": "App to shrink images",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec electron .",
+    "electron": "electron ."
+  },
+  "author": "Shivam Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "slash": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "nodemon": "^2.0.12"
+  }
+}
